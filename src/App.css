@@ -13,10 +13,14 @@ html,body,.app{
 .tabs{
   width: 100%;
   height: 49px;
-  position:absolute;
+  position:fixed;
   bottom: 0;
   left:0;
   display: flex;
+  border-top: 1px solid #b6b6b6;
+  background-color: rgba(246,246,246,0.95);
+  text-align: center;
+  z-index: 1100;
 }
 .tabs .tab{
   flex:1;
