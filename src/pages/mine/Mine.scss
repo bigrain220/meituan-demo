@@ -1,0 +1,32 @@
+#Mine{
+   background: #f0efed; 
+   color: #333;
+   .nav_bar{
+       height: 51px;
+       background: #fff;
+       display: flex;
+       line-height: 51px;
+       justify-content: space-between;
+       border-bottom: 1px solid #ccc;
+       .nav_login{
+         h3{
+            font-weight: normal;
+            margin-left: 58px;
+         }
+       }
+       .nav_right{
+         margin-right: 20px;
+         .nav_regist{
+           font-size: 14px;
+           display: block;
+         }
+       }
+    }
+   .login_list{
+     height: 40px;
+     background: #fff;
+     display: flex;
+     line-height: 40px;
+     
+   }
+}

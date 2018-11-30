@@ -32,7 +32,6 @@ class Home extends Component {
                 <SellerList sellerArray={sellerArray}></SellerList>
             </div>
         )
-
     }
 
     componentDidMount(){
